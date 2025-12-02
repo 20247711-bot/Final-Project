@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Spoon</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .img-hover-zoom {
+        overflow: hidden;
+        border-radius: 10px;
+        }
+        .img-hover-zoom img {
+        transition: transform 0.3s ease;
+        }
+        .img-hover-zoom img:hover {
+        transform: scale(1.1);
+        }
+        .footer-custom {
+        background-color: #ADEBB3 !important;
+        }
+
+        .footer-link {
+            color: #1a1a1a !important;
+        }
+
+        .footer-link:hover {
+            color: #000000 !important;
+            text-decoration: underline;
+        }
+        .carousel-item img {
+        object-fit: cover;
+        height: 600px;
+        }
+        @media (max-width: 576px) {
+            .carousel-item img {
+                height: 250px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg rounded-3" style="background-color: #ADEBB3" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Logo/Golden.png" alt="logo" width="40" height="30">
+                </a>
+                <a class="navbar-brand" href="index.html">Simple Spoon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Recipe.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+
+    <div class="container-xl">
+        <center><img src="Logo/simple recipe.png" alt="simple" class="img-fluid"></center>
+        <br>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col-md-3">
+                <div class="card h-100">
+                <a class="navbar-brand img-hover-zoom d-block" href="adobo.html">
+                    <img src="images/adobo.jpg" class="card-img-top" alt="Adobo">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Adobo</h5>
+                    <p class="card-text">Adobo is arguably the most famous and beloved Filipino dish. It involves meat (usually chicken, pork, or a combination) 
+                        braised in savory sauce made of *soy sauce*, *vinegar*, *crushed garlic*, and *black peppercorns*. 
+                        The cooking method, which preserves the meat, was a clever technique used long before refrigeration.</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card h-100">
+                <a href="sinigang.html" class="navbar-brand img-hover-zoom d-block">
+                    <img src="images/sinigeng.jpg" class="card-img-top" alt="Sinigang">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Sinigang</h5>
+                    <p class="card-text">Sinigang is the quintessential Filipino sour soup. Its distinctive tangy flavor comes from a souring agent, 
+                        most commonly *tamarind (sampaloc)*, but sometimes using guava, calamansi, or even unripe mango. 
+                        It’s packed with protein (pork, beef, shrimp, or fish) and a vibrant mix of vegetables like taro, tomatoes, okra, radish, and water spinach (kangkong).
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card h-100">
+                <a href="tinola.html" class="navbar-brand img-hover-zoom d-block">
+                    <img src="images/tinola.jpg" class="card-img-top" alt="Tinola">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Tinola</h5>
+                    <p class="card-text">Tinola is a Filipino chicken soup known for its light, gingery broth. It’s cooked with chicken simmered in ginger, garlic, 
+                        and onions, then paired with green papaya or sayote and finished with fresh malunggay leaves. Simple, aromatic, and nourishing, 
+                        tinola is often enjoyed as a comforting home-style dish.
+                
+                    </p>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card h-100">
+                <a href="afritada.html" class="navbar-brand img-hover-zoom d-block">
+                    <img src="images/afritada.jpg" class="card-img-top" alt="Afritada">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Afritada</h5>
+                    <p class="card-text">Afritada is a Filipino tomato-based stew made with chicken or pork simmered in a rich, savory tomato sauce. 
+                        It features classic vegetables like potatoes, carrots, and bell peppers, creating a hearty, colorful mix. Mildly sweet and 
+                        deeply flavorful, afritada is a well-loved everyday dish served with plenty of rice.</p>
+            
+                </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <br>
+            <center><img src="Logo/delicacies.png" alt="delicacies" class="img-fluid"></center>
+            <br>
+            <div class="carousel-indicators rounded-3">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="images/bibingka.jpg" class="d-block w-100 img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Bibingka</h5>
+                    <p>A soft rice cake traditionally cooked in clay pots and topped with butter, salted egg, and cheese, usually enjoyed during Christmas season.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="images/puto.jpg" class="d-block w-100 img-fluid" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Puto</h5>
+                    <p co>Steamed rice cakes that are lightly sweet, often paired with dinuguan or eaten as a snack.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="images/kakanin.jpg" class="d-block w-100 img-fluid" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Kakanin</h5>
+                    <p>Sticky rice wrapped in banana leaves, sometimes served with latik or sugar.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="images/lecheflan.jpg" class="d-block w-100 img-fluid" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: black;">Leche Flan</h5>
+                    <p style="color: black;">A rich, creamy caramel custard dessert made with eggs, milk, and sugar.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="images/halohalo.jpg" class="d-block w-100 img-fluid" alt="..." >
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: black;">Halo-Halo</h5>
+                    <p style="color: black;">A cold dessert with crushed ice, milk, sweetened fruits, jellies, beans, and topped with leche flan or ube ice cream.</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <hr>  
+
+    <footer class="footer-custom text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-left">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Company</h5>
+                <p><a href="#" class="footer-link text-decoration-none">About</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Careers</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Blog</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Support</h5>
+                <p><a href="#" class="footer-link text-decoration-none">Help Center</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Contact</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">FAQs</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                <a href="#" class="footer-link me-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="footer-link me-4"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="footer-link me-4"><i class="bi bi-instagram"></i></a>
+            </div>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="text-center">
+            &copy; 2025 Simple Spoon
+        </div>
+    </div>
+</footer>
+</body>
+</html>

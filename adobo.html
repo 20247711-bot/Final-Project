@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+
+        body {
+            background-color: #f6f6f6;
+            color: #333;
+        }
+
+        .header-text {
+            color: #2a2a2a;
+        }
+
+        .section-header {
+            color: #2a2a2a;
+            border-bottom: 3px solid #66C670;
+        }
+
+        .highlight-text {
+            color: #6bbd74;
+            font-weight: bold;
+        }
+
+        .tip-box {
+            background-color: #ADEBB3;
+            border-radius: 8px;
+            padding: 1rem;
+            color: #2a2a2a;
+            font-weight: bold;
+        }
+        .footer-custom {
+        background-color: #ADEBB3 !important;
+        }
+
+        .footer-link {
+            color: #1a1a1a !important;
+        }
+
+        .footer-link:hover {
+            color: #000000 !important;
+            text-decoration: underline;
+        }
+        .carousel-small {
+            max-width: 65%;
+            margin: auto;
+        }
+        .carousel-item img {
+            object-fit: cover;
+            height: 600px;
+        }
+        @media (max-width: 576px) {
+            .carousel-item img {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg rounded-3" style="background-color: #ADEBB3;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Logo/Golden.png" alt="logo" width="40" height="30">
+                </a>
+                <a class="navbar-brand" href="index.html">Simple Spoon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Recipe.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+
+    <div class="container">
+        <br>
+        <header class="text-center py-5 header-bg rounded-3">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-small">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/adobong-baboy.jpg" class="d-block w-65 img-fluid rounded-3" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/adobomanok.jpg" class="d-blockw-65 img-fluid rounded-3" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <h1 class="display-4 header-text">Adobo: The Dish That Tells a Story</h1>
+            <p class="lead header-text">A staple of Filipino cuisine, a history of preservation.</p>
+            <a href="#recipes">
+                <button class="btn" style="background-color: #ADEBB3; color: #2a2a2a;">Jump to Recipes</button>
+            </a>
+        </header>
+    
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success">
+            <img src="Logo/true.png" alt="true" class="section-header img-fluid">
+            <p>
+                The question of "who invented Adobo" doesn't point to a single chef or date, 
+                but rather to the ingenuity of <span class="highlight-text">ancient, indigenous Filipinos</span>.
+            </p>
+            <p>
+                Their solution: cooking meat in a mixture dominated by <span class="highlight-text">vinegar and salt</span>, 
+                creating a natural preservation method that predates refrigeration.
+            </p>
+    
+            <p><span class="highlight-text">The Name: A Colonial Label</span></p>
+            <p>
+                Spanish colonizers, including Friar <span class="highlight-text">Pedro de San Buenaventura</span>, 
+                named it after the Spanish word <em>adobar</em>, meaning “to marinate.”
+            </p>
+            <p>
+                By 1613, Buenaventura recorded <em>“adobos de los naturales”</em>, 
+                a term that stayed even as the Filipino dish evolved through Chinese 
+                influences like soy sauce (<em>toyo</em>).
+            </p>
+        </section>
+    
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success">
+            <img src="Logo/chiken.png" alt="chicken" class="section-header img-fluid" id="recipes">
+            <p>A rich, savory, and tangy Filipino staple best served with rice.</p>
+    
+            <h3>Ingredients</h3>
+            <ul>
+                <li>1 lb Pork shoulder/belly</li>
+                <li>1 lb Chicken pieces</li>
+                <li>1/2 cup Soy Sauce</li>
+                <li>1/2 cup White Vinegar</li>
+                <li>1 cup Water</li>
+                <li>1 head Garlic, crushed</li>
+                <li>3 Bay Leaves</li>
+                <li>1 tsp Peppercorns</li>
+                <li>1 tsp Brown Sugar (optional)</li>
+                <li>2 tbsp Cooking Oil</li>
+            </ul>
+    
+            <h3>Instructions</h3>
+            <ol>
+                <li><span class="highlight-text">Marinate:</span> Combine meat with soy sauce, vinegar, garlic, peppercorns, and bay leaves.</li>
+                <li><span class="highlight-text">Sauté:</span> Brown the garlic and meat.</li>
+                <li><span class="highlight-text">Simmer:</span> Add marinade and water, then boil.</li>
+                <li><span class="highlight-text">Braise:</span> Cover and simmer for up to 1 hour.</li>
+                <li><span class="highlight-text">Reduce:</span> Uncover and thicken the sauce.</li>
+                <li><span class="highlight-text">Serve:</span> Best with hot rice.</li>
+            </ol>
+            <h3 class="text-center">TUTORIAL</h3>
+            <div class="ratio ratio-16x9" style="max-width: 65%; margin: auto;">
+                <iframe src="https://www.youtube.com/embed/e0Yjljw2awA?si=VxFGX3aDCVazR5Ut" title="YouTube video" allowfullscreen class="rounded-4"></iframe>
+                
+            </div>
+            <br>
+            <div class="tip-box">
+                <i>Tip: Let the vinegar boil <em>before</em> lowering the heat to mellow the sourness.</i>
+            </div>
+        </section>
+    </div>
+    <footer class="footer-custom text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-left">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Company</h5>
+                <p><a href="#" class="footer-link text-decoration-none">About</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Careers</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Blog</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Support</h5>
+                <p><a href="#" class="footer-link text-decoration-none">Help Center</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Contact</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">FAQs</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                <a href="#" class="footer-link me-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="footer-link me-4"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="footer-link me-4"><i class="bi bi-instagram"></i></a>
+            </div>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="text-center">
+            &copy; 2025 Simple Spoon
+        </div>
+    </div>
+</footer>
+</footer>
+</body>
+</html>

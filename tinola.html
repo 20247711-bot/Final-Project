@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinola: A Warm Filipino Comfort</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #f6f6f6;
+            color: #333;
+        }
+
+        .header-text {
+            color: #2a2a2a;
+        }
+
+        .section-header {
+            color: #2a2a2a;
+            border-bottom: 3px solid #66C670;
+        }
+
+        .highlight-text {
+            color: #6bbd74;
+            font-weight: bold;
+        }
+
+        .tip-box {
+            background-color: #ADEBB3;
+            border-radius: 8px;
+            padding: 1rem;
+            color: #2a2a2a;
+            font-weight: bold;
+        }
+        .footer-custom {
+            background-color: #ADEBB3 !important;
+        }
+
+        .footer-link {
+            color: #1a1a1a !important;
+        }
+
+        .footer-link:hover {
+            color: #000000 !important;
+            text-decoration: underline;
+        }
+        .carousel-small {
+            max-width: 65%;
+            margin: auto;
+        }
+        .carousel-item img {
+            object-fit: cover;
+            height: 600px;
+        }
+        @media (max-width: 576px) {
+            .carousel-item img {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg rounded-3" style="background-color: #ADEBB3;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="Logo/Golden.png" alt="logo" width="40" height="30">
+            </a>
+            <a class="navbar-brand" href="index.html">Simple Spoon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Recipe.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <div class="container">
+        <br>
+        <header class="text-center py-5 header-bg rounded-3">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-small">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/Tinolang-Manok.jpg" class="d-block w-65 img-fluid rounded-3" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            <h1 class="display-4 header-text">Tinola: A Warm Filipino Comfort</h1>
+            <p class="lead header-text">A simple, fragrant chicken soup that tells a story of home and tradition.</p>
+            <a href="#recipes">
+                <button class="btn" style="background-color: #ADEBB3; color: #2a2a2a;">Jump to Recipes</button>
+            </a>
+        </header>
+
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success">
+            <img src="Logo/True.png" alt="true" class="section-header img-fluid">
+            <p>
+                Tinola, or <span class="highlight-text">tinulang manok</span>, has no single known inventor. Its method—simmering meat with ginger and local vegetables—is an ancient Filipino cooking style.
+            </p>
+            <p>
+                Traditionally, it features <span class="highlight-text">chicken, green papaya, and chili leaves</span>, making it a simple yet aromatic dish. Ginger (<em>luya</em>) adds a fragrant warmth to the broth.
+            </p>
+            <p>
+                Tinola is even mentioned in <strong>Jose Rizal's Noli Me Tángere</strong>, symbolizing comfort, family, and cultural heritage—a true pre-colonial Filipino dish.
+            </p>
+        </section>
+
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success">
+            <img src="Logo/tinolamanok.png" alt="true" class="section-header img-fluid">
+
+            <h3 id="recipes">Ingredients</h3>
+            <ul>
+                <li>1 whole chicken, cut into serving pieces</li>
+                <li>1 tablespoon vegetable oil</li>
+                <li>1 medium onion, thinly sliced</li>
+                <li>3 cloves garlic, minced</li>
+                <li>2 inches fresh ginger, julienned</li>
+                <li>6 cups water or rice washing</li>
+                <li>1 small green papaya, cubed</li>
+                <li>1 cup chili leaves or malunggay</li>
+                <li>Fish sauce and black pepper, to taste</li>
+            </ul>
+
+            <h3>How to Cook It</h3>
+            <ol>
+                <li><span class="highlight-text">Sauté Aromatics:</span> Heat oil and sauté garlic, onion, and ginger until fragrant.</li>
+                <li><span class="highlight-text">Sear the Chicken:</span> Add chicken and cook until lightly browned.</li>
+                <li><span class="highlight-text">Simmer:</span> Add water and fish sauce. Simmer 20–30 minutes until chicken is tender.</li>
+                <li><span class="highlight-text">Add Papaya:</span> Add papaya cubes and cook 5–7 minutes.</li>
+                <li><span class="highlight-text">Add Greens:</span> Add chili leaves or malunggay and stir gently.</li>
+                <li><span class="highlight-text">Serve:</span> Adjust seasoning and serve hot with steamed rice.</li>
+            </ol>
+            <h3 class="text-center">TUTORIAL</h3>
+            <div class="ratio ratio-16x9" style="max-width: 65%; margin: auto;">
+                <iframe src="https://www.youtube.com/embed/PN3pgZmC1f4?si=oRgtnea5_4Fcvz_m" title="YouTube video" allowfullscreen class="rounded-4"></iframe>
+            </div>
+            <br>
+            <div class="tip-box">
+                <i>Tip: For richer flavor, sauté the chicken lightly before simmering to enhance the broth.</i>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer-custom text-dark pt-5 pb-4">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-left">
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Company</h5>
+                    <p><a href="#" class="footer-link text-decoration-none">About</a></p>
+                    <p><a href="#" class="footer-link text-decoration-none">Careers</a></p>
+                    <p><a href="#" class="footer-link text-decoration-none">Blog</a></p>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Support</h5>
+                    <p><a href="#" class="footer-link text-decoration-none">Help Center</a></p>
+                    <p><a href="#" class="footer-link text-decoration-none">Contact</a></p>
+                    <p><a href="#" class="footer-link text-decoration-none">FAQs</a></p>
+                </div>
+
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                    <a href="#" class="footer-link me-4"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="footer-link me-4"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="footer-link me-4"><i class="bi bi-instagram"></i></a>
+                </div>
+
+            </div>
+
+            <hr class="mb-4">
+
+            <div class="text-center">
+                &copy; 2025 Simple Spoon
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

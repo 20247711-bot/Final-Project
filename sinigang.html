@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinigang: The Soul of Sour</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #f6f6f6;
+            color: #333;
+        }
+
+        .header-text {
+            color: #2a2a2a;
+        }
+
+        .section-header {
+            color: #2a2a2a;
+            border-bottom: 3px solid #66C670;
+        }
+
+        .highlight-text {
+            color: #6bbd74;
+            font-weight: bold;
+        }
+
+        .tip-box {
+            background-color: #ADEBB3;
+            border-radius: 8px;
+            padding: 1rem;
+            color: #2a2a2a;
+            font-weight: bold;
+        }
+         .footer-custom {
+        background-color: #ADEBB3;
+        }
+
+        .footer-link {
+            color: #1a1a1a;
+        }
+
+        .footer-link:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+        .carousel-small {
+            max-width: 65%;
+            margin: auto;
+        }
+        .carousel-item img {
+            object-fit: cover;
+            height: 600px;
+        }
+        @media (max-width: 576px) {
+            .carousel-item img {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg rounded-3" style="background-color: #ADEBB3;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Logo/Golden.png" alt="logo" width="40" height="30">
+                </a>
+                <a class="navbar-brand" href="index.html">Simple Spoon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Recipe.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+
+    <div class="container">
+        <br>
+        <header class="text-center py-5 header-bg rounded-3">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-small">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/sinbab.png" class="d-block w-65 img-fluid rounded-3" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/hipon.png" class="d-block w-65 img-fluid rounded-3" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/bang.png" class="d-block w-65 img-fluid rounded-3" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            <h1 class="display-4 header-text">Sinigang: The Soul of Sour</h1>
+            <p class="lead header-text">A warm, tangy Filipino comfort dish shaped by nature and tradition.</p>
+            <a href="#recipes">
+                <button class="btn" style="background-color: #ADEBB3; color: #2a2a2a;">Jump to Recipes</button>
+            </a>
+        </header>
+    
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success">
+            <img src="Logo/True.png" alt="true" class="section-header">
+            <p>
+                Sinigang has no single inventor. Its origins come from the culinary practices of 
+                <span class="highlight-text">early indigenous Filipinos</span> who cooked meat and fish with naturally sour fruits.
+            </p>
+            <p>
+                Filipinos used whatever souring agents nature provided like 
+                <span class="highlight-text">tamarind, kamias, guava, green mango, and calamansi</span> making Sinigang deeply tied to the geography of the islands.
+            </p>
+
+            <p><span class="highlight-text">A Dish Shaped by the Land</span></p>
+            <p>
+                Because ingredients varied by region, Sinigang evolved into many versions. 
+                It became a dish defined by Filipino taste and environment instead of a single creator.
+            </p>
+        </section>
+    
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success" id="recipes">
+            <img src="Logo/sinagangbaboy.png" alt="sinigang" class="section-header img-fluid">
+
+            <h3>Ingredients</h3>
+            <ul>
+                <li>1 lb (500g) pork belly, cubed</li>
+                <li>1 onion, quartered</li>
+                <li>2 tomatoes, quartered</li>
+                <li>3 pieces gabi (taro root), halved</li>
+                <li>1 radish, sliced</li>
+                <li>1 bunch sitaw (long beans), cut into lengths</li>
+                <li>1 pack tamarind soup mix or fresh tamarind</li>
+                <li>1 bunch kangkong or mustard greens</li>
+                <li>2 long green chilies</li>
+                <li>8 cups water</li>
+                <li>Fish sauce and salt</li>
+            </ul>
+
+            <h3>How to Cook It</h3>
+            <ol>
+                <li><span class="highlight-text">Tenderize the Pork:</span> Boil pork in water, skim foam, and simmer until tender.</li>
+                <li><span class="highlight-text">Add Aromatics:</span> Add onion, tomatoes, and gabi. Simmer until gabi softens.</li>
+                <li><span class="highlight-text">Sour the Broth:</span> Mix in tamarind soup base. Adjust sourness.</li>
+                <li><span class="highlight-text">Add Vegetables:</span> Put in radish and sitaw. Simmer 5 minutes.</li>
+                <li><span class="highlight-text">Finish:</span> Add chilies and greens until wilted.</li>
+                <li><span class="highlight-text">Serve:</span> Season with patis and serve hot with rice.</li>
+            </ol>
+
+            <h3 class="text-center">TUTORIAL</h3>
+
+            <div class="ratio ratio-16x9" style="max-width: 65%; margin: auto;">
+                <iframe src="https://www.youtube.com/embed/t-beBtUZz3E?si=vJo4R82VUTrAbByD" title="YouTube video" allowfullscreen class="rounded-4"></iframe>
+            </div>
+            <br>
+            <div class="tip-box">
+                <i>*Cooking Tip:* Add gabi early to naturally thicken the soup for a richer broth.</i>
+            </div>
+        </section>
+
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success">
+            <img src="Logo/hipon.png" alt="sinigang hipon" class="section-header img-fluid">
+
+            <h3>Ingredients</h3>
+            <ul>
+                <li>1 lb shrimp</li>
+                <li>1 onion, quartered</li>
+                <li>2 tomatoes, quartered</li>
+                <li>1 pack tamarind soup mix</li>
+                <li>1 radish, sliced</li>
+                <li>1 bunch sitaw</li>
+                <li>1 bunch kangkong or mustard greens</li>
+                <li>2 long green chilies</li>
+                <li>6 cups water</li>
+                <li>Fish sauce and salt</li>
+            </ul>
+
+            <h3>How to Cook It</h3>
+            <ol>
+                <li><span class="highlight-text">Boil Aromatics:</span> Simmer onion and tomatoes until soft.</li>
+                <li><span class="highlight-text">Sour the Broth:</span> Add tamarind soup mix and season.</li>
+                <li><span class="highlight-text">Add Vegetables:</span> Add radish and sitaw.</li>
+                <li><span class="highlight-text">Add Shrimp:</span> Add shrimp and chilies until shrimp turns pink.</li>
+                <li><span class="highlight-text">Finish:</span> Add greens and turn off heat.</li>
+            </ol>
+            <h3 class="text-center">TUTORIAL</h3>
+
+            <div class="ratio ratio-16x9" style="max-width: 65%; margin: auto;">
+                <iframe src="https://www.youtube.com/embed/7QKr1oy4Ykc?si=5oHehJ1RF7uYGMVg" title="YouTube video" allowfullscreen class="rounded-4"></iframe>
+            </div>
+            <br>
+            <div class="tip-box">
+                <i>*Cooking Tip:* Do not overcook the shrimp once it turns pink, it’s done!</i>
+            </div>
+        </section>
+
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success">
+            <img src="Logo/isda.png" alt="sinigang isda" class="section-header img-fluid">
+
+            <h3>Ingredients</h3>
+            <ul>
+                <li>1 lb fish (bangus, salmon head, or maya-maya)</li>
+                <li>1 onion, quartered</li>
+                <li>2 tomatoes, quartered</li>
+                <li>1 pack tamarind soup mix</li>
+                <li>1 radish, sliced</li>
+                <li>1 bunch sitaw</li>
+                <li>1 bunch kangkong or mustard greens</li>
+                <li>2 long green chilies</li>
+                <li>6 cups water</li>
+                <li>Ginger (optional)</li>
+                <li>Fish sauce and salt</li>
+            </ul>
+
+            <h3>How to Cook It</h3>
+            <ol>
+                <li><span class="highlight-text">Boil Aromatics:</span> Simmer onion, tomatoes, and ginger.</li>
+                <li><span class="highlight-text">Sour the Broth:</span> Add tamarind mix and season.</li>
+                <li><span class="highlight-text">Add Vegetables:</span> Add radish and sitaw.</li>
+                <li><span class="highlight-text">Add Fish:</span> Gently add fish and simmer.</li>
+                <li><span class="highlight-text">Finish:</span> Add chilies and greens until wilted.</li>
+            </ol>
+            <h3 class="text-center">TUTORIAL</h3>
+            <div class="ratio ratio-16x9" style="max-width: 65%; margin: auto;">
+                <iframe src="https://www.youtube.com/embed/8BL3uJlutg0?si=-NbO6FAlc22QNwbQ" title="YouTube video" allowfullscreen class="rounded-4"></iframe>
+            </div>
+            <br>
+            <div class="tip-box">
+            <i>*Cooking Tip:* Add fish last to prevent it from breaking apart.</i>
+            </div>
+        </section>
+    </div>
+    <hr>
+
+    <footer class="footer-custom text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-left">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Company</h5>
+                <p><a href="#" class="footer-link text-decoration-none">About</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Careers</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Blog</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Support</h5>
+                <p><a href="#" class="footer-link text-decoration-none">Help Center</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Contact</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">FAQs</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                <a href="#" class="footer-link me-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="footer-link me-4"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="footer-link me-4"><i class="bi bi-instagram"></i></a>
+            </div>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="text-center">
+            &copy; 2025 Simple Spoon
+        </div>
+    </div>
+</footer>
+</body>
+</html>
