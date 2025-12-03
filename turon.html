@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turon: Sweet Filipino Snack</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #f6f6f6;
+            color: #333;
+        }
+
+        .header-text {
+            color: #2a2a2a;
+        }
+
+        .section-header {
+            color: #2a2a2a;
+            border-bottom: 3px solid #66C670;
+        }
+
+        .highlight-text {
+            color: #6bbd74;
+            font-weight: bold;
+        }
+
+        .tip-box {
+            background-color: #ADEBB3;
+            border-radius: 8px;
+            padding: 1rem;
+            color: #2a2a2a;
+            font-weight: bold;
+        }
+
+        .footer-custom {
+            background-color: #ADEBB3;
+        }
+
+        .footer-link {
+            color: #1a1a1a;
+        }
+
+        .footer-link:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        .carousel-small {
+            max-width: 65%;
+            margin: auto;
+        }
+
+        .carousel-item img {
+            object-fit: cover;
+            height: 600px;
+        }
+
+        @media (max-width: 576px) {
+            .carousel-item img {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg rounded-3" style="background-color: #ADEBB3;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Logo/Golden.png" alt="logo" width="40" height="30">
+                </a>
+                <a class="navbar-brand" href="index.html">Simple Spoon</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="Recipe.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                   <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+        <hr>
+
+    <div class="container">
+        <br>
+        <header class="text-center py-5 header-bg rounded-3">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-small">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="images/turon1.jpg" class="d-block w-65 img-fluid rounded-3" alt="Turon 1">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/turon2.jpg" class="d-block w-65 img-fluid rounded-3" alt="Turon 2">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="images/turon3.jpg" class="d-block w-65 img-fluid rounded-3" alt="Turon 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            <h1 class="display-4 header-text">Turon: Sweet Filipino Snack</h1>
+            <p class="lead header-text">A delicious and crunchy Filipino dessert made from sweet bananas, sugar, and spring roll wrappers.</p>
+            <a href="#recipes">
+                <button class="btn" style="background-color: #ADEBB3; color: #2a2a2a;">Jump to Recipes</button>
+            </a>
+        </header>
+    
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success">
+            <img src="Logo/true.png" alt="true" class="section-header img-fluid">
+            <p>
+                Turon is a beloved Filipino snack that consists of sliced bananas (usually saba), coated with sugar, wrapped in a spring roll wrapper, and deep-fried until golden and crispy. 
+                It’s often served as a quick dessert or snack, especially for street vendors in the Philippines.
+            </p>
+            <p>
+                It’s also known as “banana lumpia” and is often enjoyed with a variety of fillings such as jackfruit or sweetened coconut, but the classic version uses just the banana and sugar.
+            </p>
+
+            <p><span class="highlight-text">A Crispy Delight</span></p>
+            <p>
+                With its crispy, caramelized exterior and soft, sweet interior, turon has become a favorite street food for Filipinos of all ages.
+            </p>
+        </section>
+    
+        <section class="container my-5 p-4 bg-white rounded shadow-sm border-start border-5 border-success" id="recipes">
+            
+            <img src="Logo/Turon.png" alt="true" class="section-header img-fluid">
+            <h3>Ingredients</h3>
+            <ul>
+                <li>4 pieces saba bananas (or any sweet variety of banana)</li>
+                <li>1 cup brown sugar (for coating)</li>
+                <li>Spring roll wrappers (about 8-10 pieces)</li>
+                <li>Jackfruit (optional)</li>
+                <li>Oil for frying</li>
+            </ul>
+
+            <h3>How to Cook It</h3>
+            <ol>
+                <li><span class="highlight-text">Prepare the Bananas:</span> Peel and slice the saba bananas into strips. Optionally, you can add jackfruit slices.</li>
+                <li><span class="highlight-text">Coat with Sugar:</span> Roll each banana strip in brown sugar, ensuring it’s well-coated.</li>
+                <li><span class="highlight-text">Wrap the Turon:</span> Place a sugar-coated banana strip in the center of a spring roll wrapper. Fold the edges and roll tightly.</li>
+                <li><span class="highlight-text">Fry the Turon:</span> Heat oil in a pan. Once hot, fry the turon until golden brown and crispy, turning occasionally to ensure even frying.</li>
+                <li><span class="highlight-text">Serve:</span> Drain excess oil on paper towels and serve hot, optionally with a drizzle of caramelized sugar on top.</li>
+            </ol>
+
+            <h3 class="text-center">TUTORIAL</h3>
+
+            <div class="ratio ratio-16x9" style="max-width: 65%; margin: auto;">
+                <iframe src="https://www.youtube.com/embed/16np55dhV-0?si=cAuEjsNx99-BfBl9" title="YouTube video" allowfullscreen class="rounded-4"></iframe>
+            </div>
+            <br>
+            <div class="tip-box">
+                <i>Cooking Tip: Ensure the oil is hot enough so the turon crisps up immediately and doesn’t absorb too much oil.</i>
+            </div>
+        </section>
+
+    </div>
+    <hr>
+
+    <footer class="footer-custom text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+        <div class="row text-center text-md-left">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Company</h5>
+                <p><a href="#" class="footer-link text-decoration-none">About</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Careers</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Blog</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Support</h5>
+                <p><a href="#" class="footer-link text-decoration-none">Help Center</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">Contact</a></p>
+                <p><a href="#" class="footer-link text-decoration-none">FAQs</a></p>
+            </div>
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Follow Us</h5>
+                <a href="#" class="footer-link me-4"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="footer-link me-4"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="footer-link me-4"><i class="bi bi-instagram"></i></a>
+            </div>
+
+        </div>
+
+        <hr class="mb-4">
+
+        <div class="text-center">
+            &copy; 2025 Simple Spoon
+        </div>
+    </div>
+</footer>
+</body>
+</html>
